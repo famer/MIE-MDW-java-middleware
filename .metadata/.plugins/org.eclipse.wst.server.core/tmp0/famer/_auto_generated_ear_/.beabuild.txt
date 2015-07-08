@@ -1,0 +1,6 @@
+/home/famer/workspace/hw5/WebContent = hw5.war
+/home/famer/workspace/.metadata/.plugins/org.eclipse.core.resources/hw5/build/weboutput = hw5.war
+/home/famer/workspace/hw5/build/classes = hw5.war/WEB-INF/classes
+/home/famer/workspace/hw6/WebContent = hw6.war
+/home/famer/workspace/.metadata/.plugins/org.eclipse.core.resources/hw6/build/weboutput = hw6.war
+/home/famer/workspace/hw6/build/classes = hw6.war/WEB-INF/classes
