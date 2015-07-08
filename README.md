@@ -11,6 +11,7 @@ Topics:
 * JDBC
 * SOAP
 * Oracle Service Bus
+* Singleton design pattern
 
 Works containt tutorials made in class 1.5 hour and homeworks.
 
