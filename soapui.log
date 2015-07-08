@@ -1,0 +1,35 @@
+15:23:00,940 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+15:23:00,977 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+15:23:00,978 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+15:23:00,978 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+15:23:00,979 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+15:23:00,979 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+15:23:00,980 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+15:23:00,986 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+15:23:00,988 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+15:23:00,993 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Added default schema from /com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+15:23:00,993 DEBUG [com.eviware.soapui.impl.wsdl.support.wsdl.WsdlLoader] Getting wsdl component from [http://127.0.0.1:7001/tut4/ServiceService?WSDL]
+15:23:01,035 DEBUG [com.eviware.soapui.impl.wsdl.support.wsdl.WsdlLoader] Getting wsdl component from [http://127.0.0.1:7001/tut4/ServiceService?xsd=1]
+15:23:01,052 DEBUG [com.eviware.soapui.impl.support.definition.support.AbstractDefinitionContext] Loading Definition...
+15:23:01,060 DEBUG [com.eviware.soapui.impl.wsdl.support.wsdl.WsdlInterfaceDefinition] Loading WSDL: http://127.0.0.1:7001/tut4/ServiceService?WSDL
+15:23:01,060 DEBUG [com.eviware.soapui.impl.wsdl.support.wsdl.AbstractWsdlDefinitionLoader] Returning baseInputSource [http://127.0.0.1:7001/tut4/ServiceService?WSDL]
+15:23:01,092 DEBUG [com.eviware.soapui.impl.wsdl.support.wsdl.AbstractWsdlDefinitionLoader] Returning latest import URI [http://127.0.0.1:7001/tut4/ServiceService?xsd=1]
+15:23:01,102 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Loading schema types from [http://127.0.0.1:7001/tut4/ServiceService?WSDL]
+15:23:01,102 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Getting schema http://127.0.0.1:7001/tut4/ServiceService?WSDL
+15:23:01,106 INFO [com.eviware.soapui.impl.wsdl.support.xsd.SchemaUtils] Getting schema http://127.0.0.1:7001/tut4/ServiceService?xsd=1
+15:23:01,287 DEBUG [com.eviware.soapui.impl.support.definition.support.AbstractDefinitionContext] Loaded Definition: ok
+15:23:01,301 INFO [com.eviware.soapui.impl.wsdl.support.wsdl.WsdlImporter] Finding importer for {http://tut4/}ServicePortBinding
+15:23:01,306 INFO [com.eviware.soapui.impl.wsdl.support.wsdl.WsdlImporter] Importing binding {http://tut4/}ServicePortBinding
+15:23:01,319 INFO [com.eviware.soapui.impl.wsdl.support.soap.Soap11HttpBindingImporter] importing endpoint http://127.0.0.1:7001/tut4/ServiceService
+15:23:01,324 INFO [com.eviware.soapui.impl.wsdl.support.soap.Soap11HttpBindingImporter] importing operation getDate
+15:23:01,333 INFO [com.eviware.soapui.impl.wsdl.support.soap.Soap11HttpBindingImporter] importing operation getSQRT
+15:23:01,333 INFO [com.eviware.soapui.impl.wsdl.support.soap.Soap11HttpBindingImporter] importing operation makeOperation
+15:23:05,530 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelOpener
+15:23:10,485 INFO [com.eviware.soapui.impl.support.panels.AbstractHttpRequestDesktopPanel] Got response for [ServicePortBinding.getDate:Request 1] in 8ms (245 bytes)
+15:23:15,316 DEBUG [com.eviware.soapui.threads] runInUIThreadAsync: asyncExec com.eviware.soapui.eclipse.EclipseSoapUIDesktop$ModelItemDesktopPanelOpener
+15:23:22,502 INFO [com.eviware.soapui.impl.support.panels.AbstractHttpRequestDesktopPanel] Got response for [ServicePortBinding.getSQRT:Request 1] in 18ms (220 bytes)
+15:28:13,494 INFO [com.eviware.soapui.impl.support.panels.AbstractHttpRequestDesktopPanel] Got response for [ServicePortBinding.getSQRT:Request 1] in 5ms (220 bytes)
+15:58:32,267 DEBUG [com.eviware.soapui.threads] SwtDialogs.confirm[Save Project] -> runInUIThread
+15:58:32,268 DEBUG [com.eviware.soapui.threads] runInUIThread: syncExec com.eviware.x.impl.swt.SwtDialogs$1
+15:58:32,269 DEBUG [com.eviware.soapui.threads] SwtDialogs.confirm: run
+15:58:38,395 INFO [com.eviware.soapui.impl.WorkspaceImpl] Saved workspace to [/home/classroom/user/tatartim/workspace/default-soapui-workspace.xml]
