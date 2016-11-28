@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<servers>
-  <server auto-publish-setting="1" hostname="localhost" id="Oracle WebLogic Server 11gR1 (10.3.6) at localhost [famer]" name="Oracle WebLogic Server 11gR1 (10.3.6) at localhost [famer]" runtime-id="Oracle WebLogic Server 11gR1 (10.3.6)" server-type="com.bea.weblogic1036.server" server-type-id="com.bea.weblogic1036.server" start-timeout="480" stop-timeout="240" timestamp="2" weblogic_domain_path="/home/famer/mimdw-domains/famer" weblogic_host_name="localhost" weblogic_is_remote="false" weblogic_port="7001" weblogic_use_bootprop="true" weblogic_use_config_xml="true">
-    <list key="modules" value0="hw5::org.eclipse.jst.jee.server:hw5::jst.web::2.5" value1="hw6::org.eclipse.jst.jee.server:hw6::jst.web::2.5"/>
-  </server>
-</servers>
